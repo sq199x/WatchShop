@@ -17,7 +17,7 @@ class CreateProductsTable extends Migration
             $table->increments('pro_id');
             $table->string('pro_name');
             $table->string('pro_alias');
-            $table->integer('pro_cat_id')->unsigned();;
+            $table->integer('pro_cat_id')->unsigned();
             $table->integer('pro_value');
             $table->integer('pro_sale_id');
             $table->integer('pro_num');

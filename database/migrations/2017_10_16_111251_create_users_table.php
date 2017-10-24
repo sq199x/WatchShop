@@ -28,6 +28,7 @@ class CreateUsersTable extends Migration
             $table->integer('usr_cmt_id');
             $table->integer('usr_like_id');
             $table->integer('usr_per_id');
+            $table->rememberToken();
             $table->timestamps();
         });
     }
